@@ -27,6 +27,10 @@ body {
   color: #FFFFFF;
 }
 
+.header #navbarSupportedContent {
+  width: 35%;
+}
+
 h1 {
   color: #353535;
   font-size: 3rem;
@@ -70,9 +74,20 @@ span {
   cursor: pointer;
 }
 
-.iconos {
-  font-size: 40px;
-  padding: 0px 1rem;
+footer {
+  background-color: #353535;
+}
+
+footer h2 {
+  color: #FFFFFF;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #BDBBB0;
 }
 
 @media only screen and (min-width: 1024px) {
