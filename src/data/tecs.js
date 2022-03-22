@@ -1,34 +1,33 @@
 const tecs = [
   {
-    tec: "/assets/html-5.png",
-    id: 1
-    
+    tec: "/assets/icons8-html-5.svg",
+    id: 1,
   },
   {
-    tec: "/assets/css.png",
-    id: 2
+    tec: "/assets/icons8-css3.svg",
+    id: 2,
   },
   {
-    tec: "/assets/bootstrap.png",
-    id: 3
+    tec: "/assets/icons8-oreja.svg",
+    id: 3,
   },
   {
-    tec: "/assets/git.png",
-    id: 4
+    tec: "/assets/icons8-git.svg",
+    id: 4,
   },
   {
-    tec: "/assets/js.png",
-    id: 5
+    tec: "/assets/icons8-javascript.svg",
+    id: 5,
   },
   {
-    tec: "/assets/logoReact.png",
-    id: 6
+    tec: "/assets/icons8-reaccionar.svg",
+    id: 6,
   },
-  
+
   {
-    tec: "/assets/chakra.jpg",
-    id: 7
+    tec: "/assets/icons8-chakra-ui.svg",
+    id: 7,
   },
 ];
 
-export default tecs
+export default tecs;

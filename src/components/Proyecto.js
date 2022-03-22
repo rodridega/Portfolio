@@ -19,9 +19,12 @@ export const Proyecto = ({ proyecto }) => {
       </Heading>
       <Link href={link} isExternal>
         <AspectRatio>
-          <Image src={imagen} _hover={{
-            boxShadow: '0px 0px 5px gray'
-          }} />
+          <Image
+            src={imagen}
+            _hover={{
+              boxShadow: "0px 0px 5px gray",
+            }}
+          />
         </AspectRatio>
       </Link>
       <Text my={4}>{descripcion}</Text>

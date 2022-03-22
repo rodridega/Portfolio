@@ -10,7 +10,7 @@ import {
   Icon,
   createIcon,
   useColorModeValue,
-  Link
+  Link,
 } from "@chakra-ui/react";
 import { HashLink } from "react-router-hash-link";
 
@@ -47,7 +47,7 @@ export default function CallToActionWithVideo() {
             </Text>
             <br />
             <Text as={"span"} color={"gray.800"}>
-              Soy Rodrigo Jr. Frontend Dev
+              Soy Rodrigo Frontend Developer
             </Text>
           </Heading>
           <Text color={"gray.500"}>
@@ -59,10 +59,11 @@ export default function CallToActionWithVideo() {
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
-            direction={{ base: "column", sm: "row" }}
+            direction={{ base: "column", lg: "row" }}
           >
             <Link href="https://wa.me/5493434723142" isExternal>
               <Button
+                w={"full"}
                 rounded={"full"}
                 size={"lg"}
                 fontWeight={"normal"}
@@ -74,8 +75,9 @@ export default function CallToActionWithVideo() {
                 Contactame
               </Button>
             </Link>
-            <HashLink to='#proyectos' smooth>
+            <HashLink to="#proyectos" smooth>
               <Button
+                w={"full"}
                 rounded={"full"}
                 size={"lg"}
                 fontWeight={"normal"}

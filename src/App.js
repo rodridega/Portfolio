@@ -1,5 +1,5 @@
 import { Heading } from "@chakra-ui/react";
-import { BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Barra } from "./components/Barra/Barra";
 import { Footer } from "./components/Footer";
 import CallToActionWithVideo from "./components/Hero";
@@ -12,15 +12,15 @@ function App() {
   return (
     <BrowserRouter>
       <Barra />
-        <CallToActionWithVideo />
-        <Heading as={"h2"} textAlign={"center"} py={"16"} id='proyectos'>
-          Stack
-        </Heading>
-        <TecnologiasContainer/>
-        <Heading as={"h2"} textAlign={"center"} py={"20"} id='proyectos'>
-          Proyectos
-        </Heading>
-        <ProyContainer />
+      <CallToActionWithVideo />
+      <Heading as={"h2"} textAlign={"center"} py={"16"}>
+        Stack
+      </Heading>
+      <TecnologiasContainer />
+      <Heading as={"h2"} textAlign={"center"} py={"20"} id="proyectos">
+        Proyectos
+      </Heading>
+      <ProyContainer />
       <Footer />
     </BrowserRouter>
   );
