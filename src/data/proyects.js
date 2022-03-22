@@ -44,7 +44,7 @@ const proyects = [
       "DigitalMed es una Webpage de hospital o consultorio, destinada a mejorar la calidad de atención de los pacientes, ofreciendo información del establecimiento, solicitud de turnos online y medicamentos, seguimiento de historia clínica e información sobre obras sociales, full Responsive, Mobile first",
     tecs: "HTML5, CSS3, SASS, Bootstrap.",
     imagen: "/assets/DigitalMed.png",
-    link: "https://rodridega.github.io/Dolce-Parma/",
+    link: "https://rodridega.github.io/DigitalMed/",
   },
 ];
 
