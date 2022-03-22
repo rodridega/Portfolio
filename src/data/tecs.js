@@ -21,7 +21,7 @@ const tecs = [
     id: 5
   },
   {
-    tec: "/assets/logoreact.png",
+    tec: "/assets/logoReact.png",
     id: 6
   },
   
