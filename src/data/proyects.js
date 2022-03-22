@@ -4,8 +4,8 @@ const proyects = [
     descripcion:
       "Migracion de la inicial Dolce Parma hacia React Js, añadiendo googleshets que se consume como API para que el emprendedor pueda modificar los productos desde su hogar, y la opcion de contactarse por Whatsapp con la lista de productos elegidos.",
     tecs: "React Js, Chakra UI",
-    imagen: "",
-    link: "",
+    imagen: "/assets/dolce.png",
+    link: "https://dolce-parma-react-js-ao2h9ypzz-rodridega.vercel.app/",
   },
   {
     nombre: "GiffEnteApp",
