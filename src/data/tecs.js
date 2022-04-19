@@ -12,21 +12,25 @@ const tecs = [
     id: 3,
   },
   {
-    tec: "/assets/icons8-git.svg",
+    tec: "/assets/file_type_sass_icon_130182.svg",
     id: 4,
   },
   {
-    tec: "/assets/icons8-javascript.svg",
+    tec: "/assets/icons8-git.svg",
     id: 5,
   },
   {
-    tec: "/assets/icons8-reaccionar.svg",
+    tec: "/assets/icons8-javascript.svg",
     id: 6,
+  },
+  {
+    tec: "/assets/icons8-reaccionar.svg",
+    id: 7,
   },
 
   {
     tec: "/assets/icons8-chakra-ui.svg",
-    id: 7,
+    id: 8,
   },
 ];
 
