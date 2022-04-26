@@ -16,6 +16,13 @@ const proyects = [
     link: "https://dolce-parma-react-js-ao2h9ypzz-rodridega.vercel.app/",
   },
   {
+    nombre: "Lolo Store",
+    descripcion:"Landing Page para un emprendimiento de venta de Pijamas, usando el beneficio Proyecto Real de Coderhouse por ser parte del Top10%. Para esto utilizamos HTML, CSS, SASS y alguito de Bootstrap",
+    tecs: "HTML, CSS, SASS, Bootstrap",
+    imagen: "/assets/lolo-store.png",
+    link: "https://lolo-store.vercel.app/"
+  },
+  {
     nombre: "GiffEnteApp",
     descripcion:"App para buscar Gifs, conectado con la API Giphy",
     tecs: "JavaScript, React JS, HTML, CSS",

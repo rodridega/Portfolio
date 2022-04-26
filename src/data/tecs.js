@@ -8,20 +8,25 @@ const tecs = [
     id: 2,
   },
   {
+    tec: "/assets/icons8-javascript.svg",
+    id: 11,
+  },
+  {
     tec: "/assets/icons8-oreja.svg",
     id: 3,
   },
   {
-    tec: "/assets/icons8-git.svg",
+    tec: "/assets/file_type_sass_icon_130182.svg",
     id: 4,
   },
   {
     tec: "/assets/icons8-github.svg",
     id: 10,
   },
+  
 
   {
-    tec: "/assets/icons8-javascript.svg",
+    tec: "/assets/icons8-git.svg",
     id: 5,
   },
   {
@@ -39,7 +44,9 @@ const tecs = [
   {
     tec: "/assets/icons8-firebase.svg",
     id: 9,
+    
   },
+  
 ];
 
 export default tecs;
