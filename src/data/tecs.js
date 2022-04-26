@@ -16,6 +16,11 @@ const tecs = [
     id: 4,
   },
   {
+    tec: "/assets/icons8-github.svg",
+    id: 10,
+  },
+
+  {
     tec: "/assets/icons8-javascript.svg",
     id: 5,
   },
@@ -23,10 +28,17 @@ const tecs = [
     tec: "/assets/icons8-reaccionar.svg",
     id: 6,
   },
-
+  {
+    tec: "/assets/icons8-redux.svg",
+    id: 7,
+  },
   {
     tec: "/assets/icons8-chakra-ui.svg",
-    id: 7,
+    id: 8,
+  },
+  {
+    tec: "/assets/icons8-firebase.svg",
+    id: 9,
   },
 ];
 

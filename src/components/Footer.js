@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const Footer = () => {
   return (
-    <Box bg="gray.700" w="100%" p={4} color="white" id="contacto">
+    <Box bg="gray.700" w="100%" p={4} color="white" id="contacto" mt={10}>
       <Container maxW="container.xl">
         <Grid templateColumns="repeat(2, 1fr)" gap={6}>
           <Link

@@ -50,7 +50,10 @@ export default function CallToActionWithVideo() {
               Soy Rodrigo Frontend Developer
             </Text>
           </Heading>
-          <Text color={"gray.500"}>
+          <Text
+            color={"gray.500"}
+            fontSize={{ base: "lg", sm: "xl", lg: "2xl" }}
+          >
             Soy una persona con mucha motivación por aprender cosas nuevas, por
             lo que desde que tengo memoria estoy estudiando. Busco cambiar mi
             carrera actual, en un lugar donde pueda aportar mis conocimientos,
@@ -61,7 +64,14 @@ export default function CallToActionWithVideo() {
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", lg: "row" }}
           >
-            <Link href="https://wa.me/5493434723142" isExternal>
+            <Link
+              href="https://wa.me/5493434723142"
+              isExternal
+              _hover={{
+                color: "red.400",
+                textDecoration: "none",
+              }}
+            >
               <Button
                 w={"full"}
                 rounded={"full"}
@@ -70,7 +80,11 @@ export default function CallToActionWithVideo() {
                 px={6}
                 colorScheme={"red"}
                 bg={"red.400"}
-                _hover={{ bg: "red.500" }}
+                _hover={{
+                  bg: "red.500",
+
+                  transform: "translateY(-1px)",
+                }}
               >
                 Contactame
               </Button>

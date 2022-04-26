@@ -1,5 +1,13 @@
 const proyects = [
   {
+    nombre: "V-Gaming",
+    descripcion:
+      "SPA para comprar Videojuegos, que toma los datos y registra las ordenes de compra en Firebase.",
+    tecs: "React Js, React-Router, React-Bootstrap, Context, Firebase",
+    imagen: "/assets/v-gaming.gif",
+    link: "https://v-gaming.vercel.app/",
+  },
+  {
     nombre: "Dolce Parma v2 (React Js)",
     descripcion:
       "Migracion de la inicial Dolce Parma hacia React Js, añadiendo googleshets que se consume como API para que el emprendedor pueda modificar los productos desde su hogar, y la opcion de contactarse por Whatsapp con la lista de productos elegidos.",

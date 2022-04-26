@@ -22,12 +22,20 @@ export const Proyecto = ({ proyecto }) => {
           <Image
             src={imagen}
             _hover={{
-              boxShadow: "0px 0px 5px gray",
+              transition: "all 0.3s ease-in-out",
+              transform: "scale(1.05)",
             }}
+            borderRadius={"lg"}
+            alt={nombre}
+            border={"1px solid"}
+            borderColor={"gray.200"}
           />
         </AspectRatio>
       </Link>
-      <Text my={4}>{descripcion}</Text>
+      <Text my={4} fontSize={"lg"}>
+        {" "}
+        {descripcion}
+      </Text>
       <Divider />
       <Text mt={2}>Tecnologias usadas: {tecs}</Text>
     </Box>

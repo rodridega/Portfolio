@@ -12,6 +12,8 @@ export const TecnologiasContainer = () => {
         wrap={"wrap"}
         rounded={"lg"}
         boxShadow={"lg"}
+        p={4}
+        mb={4}
       >
         {tecs.map((tec) => {
           return <Tecnologia key={tec.id} src={tec} />;
