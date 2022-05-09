@@ -1,5 +1,13 @@
 const proyects = [
   {
+    nombre: "Pokedex",
+    descripcion:
+      "Clasica Pokedex que usa la PokeAPI para obtener los datos de los pokemon, y los muestra en una lista de forma ordenada. Como feature adicional, se puede filtrar por nombre o numero de pokemon, y tiene scroll infinito.",
+    tecs: "React Js, Context",
+    imagen: "/assets/Pokedex.gif",
+    link: "https://pokedex-pi-two-64.vercel.app/",
+  },
+  {
     nombre: "V-Gaming",
     descripcion:
       "SPA para comprar Videojuegos, que toma los datos y registra las ordenes de compra en Firebase.",
@@ -8,12 +16,12 @@ const proyects = [
     link: "https://v-gaming.vercel.app/",
   },
   {
-    nombre: "Dolce Parma v2 (React Js)",
+    nombre: "L & L",
     descripcion:
       "Migracion de la inicial Dolce Parma hacia React Js, añadiendo googleshets que se consume como API para que el emprendedor pueda modificar los productos desde su hogar, y la opcion de contactarse por Whatsapp con la lista de productos elegidos.",
     tecs: "React Js, Chakra UI",
-    imagen: "/assets/dolce.png",
-    link: "https://dolce-parma-react-js-ao2h9ypzz-rodridega.vercel.app/",
+    imagen: "/assets/L&L.png",
+    link: "https://lyl-productos-de-limpieza.vercel.app/",
   },
   {
     nombre: "Lolo Store",
@@ -46,7 +54,7 @@ const proyects = [
     link: "https://rodridega.github.io/Formulario-Email/",
   },
   {
-    nombre: "Dolce Parma v1 (Javascript vanilla)",
+    nombre: "Dolce Parma (Javascript vanilla)",
     descripcion:
       "Dolce Parma es un E-commerce de productos solicitados de la fake API (https://fakestoreapi.com), full Responsive",
     tecs: "HTML5, CSS3, SASS, Bootstrap, JavaScript, Jquery.",

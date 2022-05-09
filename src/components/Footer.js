@@ -13,6 +13,9 @@ export const Footer = () => {
               "mailto:rodridega@gmail.com?Subject=Me%20interesa%20tu%20perfil"
             }
             fontSize={{ base: "md", md: "2xl" }}
+            _hover={{
+              textDecoration: "none"
+            }}
           >
             Rodridega@gmail.com
           </Link>

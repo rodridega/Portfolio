@@ -83,7 +83,8 @@ export default function CallToActionWithVideo() {
                 _hover={{
                   bg: "red.500",
 
-                  transform: "translateY(-1px)",
+                  transition: "all 0.2s ease-in-out",
+                  transform: "scale(1.1)",
                 }}
               >
                 Contactame
@@ -97,6 +98,7 @@ export default function CallToActionWithVideo() {
                 fontWeight={"normal"}
                 px={6}
                 leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
+
               >
                 Mis proyectos
               </Button>
@@ -126,6 +128,12 @@ export default function CallToActionWithVideo() {
             boxShadow={"2xl"}
             width={"full"}
             overflow={"hidden"}
+            _hover={{
+              
+              transition: " 0.6s ease-in-out",
+              transform: "scale(1.05)",
+
+            }}
           >
             <Image
               alt={"Hero Image"}
