@@ -18,7 +18,7 @@ export const Barra = () => {
         <Container maxW="container.xl">
           <Flex>
             <Box>
-              <Heading as="h2" size="md" fontWeight={"thin"}>
+              <Heading as="h2" size="md" fontWeight={"thin"} fontSize={{ base:'15 px', md: '2xl' }}>
                 Rodrigo Deganutti
               </Heading>
             </Box>

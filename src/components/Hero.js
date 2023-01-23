@@ -55,8 +55,7 @@ export default function CallToActionWithVideo() {
             fontSize={{ base: "lg", sm: "xl", lg: "2xl" }}
           >
             Soy una persona con mucha motivación por aprender cosas nuevas, por
-            lo que desde que tengo memoria estoy estudiando. Busco cambiar mi
-            carrera actual, en un lugar donde pueda aportar mis conocimientos,
+            lo que desde que tengo memoria estoy estudiando. Busco dedicarme full time a esta profesión, en un lugar donde pueda aportar mis conocimientos,
             asi como seguir creciendo en el maravilloso mundo de la
             programación.
           </Text>
@@ -129,7 +128,7 @@ export default function CallToActionWithVideo() {
             width={"full"}
             overflow={"hidden"}
             _hover={{
-              
+
               transition: " 0.6s ease-in-out",
               transform: "scale(1.05)",
 
@@ -141,7 +140,7 @@ export default function CallToActionWithVideo() {
               align={"center"}
               w={"100%"}
               h={"100%"}
-              src="/assets/fotoPort.jpg"
+              src="/assets/Vivvidoc.jpeg"
             />
           </Box>
         </Flex>
